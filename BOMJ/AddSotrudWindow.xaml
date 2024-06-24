@@ -1,0 +1,122 @@
+﻿<Window x:Class="BOMJ.AddSotrudWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BOMJ"
+        mc:Ignorable="d"
+        Height="450" Width="800"
+        MinHeight="440"
+        MinWidth="790"
+        MaxHeight="460"
+        MaxWidth="810"
+        Title="Добавление/редактирование сотрудника">
+    <Grid>
+
+        <StackPanel Orientation="Horizontal"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center">
+
+            <StackPanel VerticalAlignment="Center"
+                        HorizontalAlignment="Center"
+                        Margin="10">
+
+              
+
+                <StackPanel>
+                    <TextBlock Margin="1" Height="20" Width="100" Text="Имя"/>
+                    <TextBox Name="nameBox"
+                             Margin="1"
+                             Height="20"
+                             Text="{Binding Name}"/>
+                </StackPanel>
+
+                <StackPanel>
+                    <TextBlock Margin="1" Height="20" Width="100" Text="Фамилия"/>
+                    <TextBox Name="SurnameBox"
+                             Margin="1"
+                             Height="20"
+                             Text="{Binding Surname}"/>
+                </StackPanel>
+
+                <StackPanel>
+                    <TextBlock  Margin="1"
+                                Height="20"
+                                Text="Заработная плата"/>
+                    <TextBox Name="MoneyBox"
+                             Margin="1"
+                             Height="20"
+                             Text="{Binding Money}"/>
+                </StackPanel>
+
+                <StackPanel>
+                    <TextBlock  Margin="1"
+                                Height="20"
+                                Text="Стаж работы"/>
+                    <TextBox Name="StajBox"
+                             Margin="1"
+                             Height="20">
+                        <TextBox.Text>
+                            <Binding Path="Staj">
+                                <Binding.ValidationRules>
+                                    <ExceptionValidationRule />
+                                    <DataErrorValidationRule />
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+
+                    </TextBox>
+
+                </StackPanel>
+
+                <StackPanel>
+                    <TextBlock  Margin="1"
+                                Height="20"
+                                Text="Номер отдела"/>
+                    <TextBox Name="OtdelBox" Margin="1" Height="20"
+                         Text="{Binding DiscountAmount}"/>
+                </StackPanel>
+                
+
+            </StackPanel>
+
+            <StackPanel Margin="10"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Center">
+
+
+               
+
+                
+
+            </StackPanel>
+
+            <StackPanel Margin="10"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Center">
+
+                <StackPanel>
+                    <Button
+                        Height="25"
+     
+                        Content="Сохранить"
+                        Click="saveProductButtonClick"/>
+                </StackPanel>
+            </StackPanel>
+
+            <StackPanel Margin="10"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Center">
+
+               
+
+       
+
+            </StackPanel>
+
+
+        </StackPanel>
+
+
+    </Grid>
+</Window>

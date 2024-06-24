@@ -1,0 +1,41 @@
+create database [Spravka]
+go
+use [Spravka]
+go
+create table [Role]
+(
+	Id int primary key identity,
+	Name nvarchar(100) not null
+)
+go
+create table [User]
+(
+	Id int primary key identity,
+	Surname nvarchar(100) not null,
+	Name nvarchar(100) not null,
+	Patronymic nvarchar(100) not null,
+	Login nvarchar(max) not null,
+	Password nvarchar(max) not null,
+	Role int foreign key references [Role](Id) not null
+)
+go
+create table [Otdel]
+(
+	id int primary key identity,
+	name nvarchar(100) not null,
+	boss nvarchar(100) not null,
+	sotrud int
+)
+go
+create table [Sotrud]
+(
+	id int primary key identity,
+	Surname nvarchar(100) not null,
+	Name nvarchar(100) not null,
+	Money int,
+	Staj int,
+	idotdel int foreign key references [Otdel](id) not null
+)
+
+    PRIMARY KEY CLUSTERED ([id] ASC),
+    FOREIGN KEY ([idotdel]) REFERENCES [dbo].[Otdel] ([id])
