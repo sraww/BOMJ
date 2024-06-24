@@ -23,6 +23,7 @@ namespace BOMJ
     {
         public Guest()
         {
+            //Инициализация компонентов
             InitializeComponent();
             using (SpravkaContext db = new SpravkaContext())
             {
