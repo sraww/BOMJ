@@ -18,6 +18,7 @@ namespace BOMJ
     /// <summary>
     /// Логика взаимодействия для Guest.xaml
     /// </summary>
+    /// 
     public partial class Guest : Window
     {
         public Guest()
