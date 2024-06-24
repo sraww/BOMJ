@@ -31,7 +31,7 @@ namespace BOMJ
                 {
                     statusUser.Text = Convert.ToString(user.Surname);
                     statusUser_1.Text = Convert.ToString(user.Name);
-                    MessageBox.Show($"Добропо жаловать: {user.Surname} {user.Name}. \r\t");
+                    MessageBox.Show($"Добро по жаловать: {user.Surname} {user.Name}. \r\t");
                 }
                 else
                 {
