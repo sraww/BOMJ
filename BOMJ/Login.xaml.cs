@@ -21,7 +21,7 @@ namespace BOMJ
     /// </summary>
     public partial class Login : Window
     {
-
+        //Инициализация класса Context в форме Login
         public Login()
         {
 
