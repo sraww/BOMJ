@@ -20,11 +20,12 @@ namespace BOMJ
     /// </summary>
     public partial class Admin : Window
     {
+       
         public Admin(User user)
         {
             InitializeComponent();
 
-
+            //Использование бд
             using (SpravkaContext db = new SpravkaContext())
             {
                 if (user != null)
