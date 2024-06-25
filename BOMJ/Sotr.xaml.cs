@@ -100,7 +100,7 @@ namespace BOMJ
         {
             new AddSotrudWindow().ShowDialog();
         }
-
+        // Использование сортировки
         private void delUserButton(object sender, RoutedEventArgs e)
         {
             using (SpravkaContext db = new SpravkaContext())
