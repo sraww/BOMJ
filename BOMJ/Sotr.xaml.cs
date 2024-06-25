@@ -24,6 +24,7 @@ namespace BOMJ
         public Sotr()
         {
             InitializeComponent();
+            // Использование бд
             using (SpravkaContext db = new SpravkaContext())
             {
                 List<string> sortList = new List<string>() { "По возрастанию ЗП", "По убыванию ЗП" };
