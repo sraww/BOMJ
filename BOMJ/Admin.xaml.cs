@@ -48,7 +48,7 @@ namespace BOMJ
             new MainWindow().Show();
             this.Close();
         }
-
+        // Сортировка пользователей
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             new Sotr().Show();
