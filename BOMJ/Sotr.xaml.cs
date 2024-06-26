@@ -123,7 +123,7 @@ namespace BOMJ
                 }
             }
         }
-
+        // Очистка сортировки данных
         private void сlearButton_Restart(object sender, RoutedEventArgs e)
         {
             new Sotr().ShowDialog();
