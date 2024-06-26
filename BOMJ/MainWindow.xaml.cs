@@ -21,7 +21,7 @@ namespace BOMJ
     /// </summary>
     public partial class MainWindow : Window
     {
-
+        //Инициализация 
         public MainWindow()
         {
 
