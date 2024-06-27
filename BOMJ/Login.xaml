@@ -8,8 +8,8 @@
        Title="Авторизация" Height="600" Width="1000"
         MinHeight="600"
         MinWidth="1000"
-        MaxHeight="770"
-        MaxWidth="1250">
+        MaxHeight="780"
+        MaxWidth="1260">
     <Grid Background="#F002">
         <Border MinWidth="400" Margin="15,0,15,0" Background="#F0E68C" VerticalAlignment="Center" Padding="40" MaxWidth="500" CornerRadius="35">
             <Border.Effect>
