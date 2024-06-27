@@ -30,7 +30,7 @@ namespace BOMJ
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            //
+            //Логика авторизации
             using (SpravkaContext db = new SpravkaContext())
             {
                 User user = db.Users.Where(u => u.Login == loginBox.Text && u.Password == passwordBox.Password).FirstOrDefault() as User;
