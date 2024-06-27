@@ -25,7 +25,7 @@
                 </Grid>
                 <StackPanel>
                     <TextBlock Height="20" Width="109" Text="Введите логин" HorizontalAlignment="Left" Background="#4869D6" Margin="0,15,0,15"/>
-                    <TextBox x:Name="loginBox"  Width="167" HorizontalAlignment="Left" Margin="0,5,0,15" />
+                    <TextBox x:Name="loginBox"  Width="168" HorizontalAlignment="Left" Margin="0,5,0,15" />
 
                 </StackPanel>
                 <StackPanel>
