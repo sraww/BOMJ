@@ -43,7 +43,7 @@ namespace BOMJ
             new MainWindow().Show();
             this.Close();
         }
-
+       
         private void searchBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             UpdateProducts();
