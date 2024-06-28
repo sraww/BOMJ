@@ -36,6 +36,7 @@ namespace BOMJ
                 User user = db.Users.Where(u => u.Login == loginBox.Text && u.Password == passwordBox.Password).FirstOrDefault() as User;
 
                 // admin
+                //Авторизация 
                 if (user != null)
                 {
                     
