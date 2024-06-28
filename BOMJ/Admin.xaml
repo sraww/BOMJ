@@ -7,7 +7,7 @@
         mc:Ignorable="d"
          Title="" Height="600" Width="1000">
     <Grid Background="#BC8F8F">
-        <Border MinWidth="400" Margin="15,0,15,0" Background="#F0E68C" VerticalAlignment="Center" Padding="40" MaxWidth="500" CornerRadius="35">
+        <Border MinWidth="400" Margin="15,0,15,0" Background="#FE00" VerticalAlignment="Center" Padding="40" MaxWidth="500" CornerRadius="35">
             <Border.Effect>
                 <DropShadowEffect BlurRadius="30" Color="Black" ShadowDepth="15"></DropShadowEffect>
             </Border.Effect>
