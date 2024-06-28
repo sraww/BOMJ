@@ -16,7 +16,7 @@
 
                 <TextBlock Text="Список отделов предприятия" FontSize="25" FontWeight="Bold" Margin="0 20 0 20" Width="411" HorizontalAlignment="Left"/>
                 <TextBlock Margin="865,20,35,35" Text="Фильтр" Height="20" Width="100" RenderTransformOrigin="4.708,1.091"/>
-                <ComboBox Margin="840,45,10,10" Name="filterUserComboBox" Height="20" Width="150"     
+                <ComboBox Margin="840,55,10,0" Name="filterUserComboBox" Height="20" Width="150"     
                           SelectionChanged="filterUserComboBox_SelectionChanged"/>
                 <TextBlock Margin="690,30,210,25" Text="Поиск" Height="20" Width="100"/>
                 <TextBox Margin="690,55,210,0" Name="searchBox" Width="100" Height="20"
