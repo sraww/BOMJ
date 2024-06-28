@@ -14,7 +14,7 @@
         <StackPanel>
             <Grid>
 
-                <TextBlock Text="Список отделов предприятия" FontSize="25" FontWeight="Bold" Margin="0 20 0 20" Width="411" HorizontalAlignment="Left"/>
+                <TextBlock Text="Список отделов предприятия" FontSize="25" FontWeight="Bold" Margin="212,30,0,10" Width="500" HorizontalAlignment="Left"/>
                 <TextBlock Margin="865,20,35,35" Text="Фильтр" Height="20" Width="100" RenderTransformOrigin="4.708,1.091"/>
                 <ComboBox Margin="840,55,10,0" Name="filterUserComboBox" Height="20" Width="150"     
                           SelectionChanged="filterUserComboBox_SelectionChanged"/>
@@ -43,7 +43,7 @@
                             <TextBlock Text="{Binding Name , StringFormat=Название: {0}}" FontSize="15" Margin="5 , 5"/>
                             <TextBlock Text="{Binding Boss , StringFormat=Начальник: {0}}" FontSize="15" Margin="5 , 5"/>
                             <TextBlock Text="{Binding Sotrud , StringFormat=Кол-во сотрудников: {0}}" FontSize="15" Margin="5 , 5"/>
-            
+
                         </StackPanel>
 
                     </DataTemplate>
