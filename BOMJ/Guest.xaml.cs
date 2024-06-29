@@ -43,7 +43,7 @@ namespace BOMJ
             new MainWindow().Show();
             this.Close();
         }
-       
+
         private void searchBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             UpdateProducts();
@@ -53,7 +53,7 @@ namespace BOMJ
         {
             UpdateProducts();
         }
-        private void UpdateProducts()
+        private void .................UpdateProducts()
         {
             //Использование БД
             using (SpravkaContext db = new SpravkaContext())
@@ -95,5 +95,6 @@ namespace BOMJ
             searchBox.Text = "";
             sortUserComboBox.SelectedIndex = -1;
         }
+      
     }
 }
