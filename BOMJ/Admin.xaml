@@ -16,10 +16,10 @@
                 <TextBlock x:Name="statusUser_1" Text="Роль: Иванов Иван Иванович" Height="20" Width="416" TextAlignment="Left" Background="#4671D5"/>
 
                 <Grid Margin="0 0 0 20">
-                    <Button HorizontalAlignment="Left" Content="Сотрудники" Background="#269926" Width="112" Click="Button_Click_1" Height="17" VerticalAlignment="Top" />
-                    <Button HorizontalAlignment="Left" Content="Отдел" Margin="308,0,0,0" Background="#269926" Width="112" Click="Button_Click_2" />
+                    <Button HorizontalAlignment="Left" Content="Сотрудники" Background="#FE1" Width="112" Click="Button_Click_1" Height="17" VerticalAlignment="Top" />
+                    <Button HorizontalAlignment="Left" Content="Отдел" Margin="308,0,0,0" Background="#FE1" Width="112" Click="Button_Click_2" />
                 </Grid>
-                <Button HorizontalAlignment="Left" Content="Выход" Margin="308,0,0,0" Background="#269926" Width="112" Click="Button_Click" />
+                <Button HorizontalAlignment="Left" Content="Выход" Margin="308,0,0,0" Background="#FE1" Width="112" Click="Button_Click" />
             </StackPanel>
         </Border>
     </Grid>
