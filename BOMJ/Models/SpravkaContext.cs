@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 // Использование и применение модели данных и context 
 namespace BOMJ.Models;
-
+//Модель проекта 
 public partial class SpravkaContext : DbContext
 {
     public SpravkaContext()
