@@ -9,7 +9,7 @@
     <Grid Background="#BC8F8F">
         <Border MinWidth="400" Margin="15,0,15,0" Background="#FE00" VerticalAlignment="Center" Padding="40" MaxWidth="500" CornerRadius="35">
             <Border.Effect>
-                <DropShadowEffect BlurRadius="30" Color="Black" ShadowDepth="15"></DropShadowEffect>
+                <DropShadowEffect BlurRadius="30" Color="Black" ShadowDepth="16"></DropShadowEffect>
             </Border.Effect>
             <StackPanel>
                 <TextBlock Name="statusUser" Margin="1" Text="Роль: Иванов Иван Иванович" Height="20" Width="415" TextAlignment="Left" Background="#4671D5"/>
