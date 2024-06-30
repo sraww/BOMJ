@@ -11,7 +11,7 @@
         MinWidth="1000"
         MaxHeight="770"
         MaxWidth="1250">
-    <Grid Background="#BC8F8F">
+    <Grid Background="#FEE">
         <StackPanel>
             <Grid>
 
