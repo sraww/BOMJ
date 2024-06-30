@@ -53,7 +53,7 @@ namespace BOMJ
         {
             UpdateProducts();
         }
-        private void .................UpdateProducts()
+        private void UpdateProducts()
         {
             //Использование БД
             using (SpravkaContext db = new SpravkaContext())
