@@ -24,7 +24,7 @@
                          TextChanged="searchBox_TextChanged" />
                 <TextBlock Margin="521,39,329,0"
                            TextAlignment="Left"
-                           Name="countProducts" Width="150"
+                           Name="countProducts" Width="160"
                            Text="Количество: " Height="16" VerticalAlignment="Top"/>
                 <Button Margin="534,55,366,0"
                             Name="сlearButton"
