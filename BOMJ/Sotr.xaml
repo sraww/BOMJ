@@ -73,7 +73,7 @@
             </ListView>
 
             <Grid Margin="0 20 0 20">
-                <Button HorizontalAlignment="R" Content="Добавить сотрудника" Margin="348,9,0,0" Background="#269926" Width="113" Click="Button_Click_1" Height="30" VerticalAlignment="Top" />
+                <Button HorizontalAlignment="Right" Content="Добавить сотрудника" Margin="348,9,0,0" Background="#269926" Width="113" Click="Button_Click_1" Height="30" VerticalAlignment="Top" />
                 <Button Name="deleteUser"
         Margin="500,17,400,0"
         Content="Удалить товар"
