@@ -27,7 +27,6 @@
             Text="Количество: " Height="16" VerticalAlignment="Top"/>
                 <Button Margin="534,55,366,0"
              Name="сlearButton"
-                        
                             Width="100"
                             Height="20"
                             Content="Очистить"
