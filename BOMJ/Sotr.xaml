@@ -36,8 +36,7 @@
                     Width="100"
                     Height="20"
                     Content="Обновить"
-                    Click="сlearButton_Restart" VerticalAlignment="Top"
-                             />
+                    Click="сlearButton_Restart" VerticalAlignment="Top"/>
 
             </Grid>
 
