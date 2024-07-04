@@ -31,8 +31,7 @@
                             Width="100"
                             Height="20"
                             Content="Очистить"
-                            Click="сlearButton_Click" VerticalAlignment="Top"
-                             />
+                            Click="сlearButton_Click" VerticalAlignment="Top"/>
                 <Button Margin="348,55,552,0"
                     x:Name="сlearButton_Copy"
                         
