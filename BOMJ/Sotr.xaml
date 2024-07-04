@@ -20,7 +20,7 @@
                 <ComboBox Margin="823,55,27,0" Name="sortUserComboBox" Height="20" Width="150" SelectionChanged="sortUserComboBox_SelectionChanged"/>
                 <TextBlock Margin="690,30,210,25" Text="Поиск" Height="20" Width="100"/>
                 <TextBox Margin="690,55,210,0" Name="searchBox" Width="100" Height="20"
-          TextChanged="searchBox_TextChanged" />
+          TextChanged="searchBox_TextChanged"/>
                 <TextBlock Margin="521,39,329,0"
             TextAlignment="Left"
             Name="countProducts" Width="160"
