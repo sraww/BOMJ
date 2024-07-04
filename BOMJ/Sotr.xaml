@@ -37,7 +37,6 @@
                     Height="20"
                     Content="Обновить"
                     Click="сlearButton_Restart" VerticalAlignment="Top"/>
-
             </Grid>
 
             <ListView Grid.Row ="1"
