@@ -37,7 +37,6 @@
                     Content="Обновить"
                     Click="сlearButton_Restart" VerticalAlignment="Top"/>
             </Grid>
-
             <ListView Grid.Row ="1"
 	  x:Name="productlistView"
 	  ScrollViewer.HorizontalScrollBarVisibility="Disabled"
