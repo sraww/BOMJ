@@ -32,12 +32,10 @@
                             Click="сlearButton_Click" VerticalAlignment="Top"
                              />
             </Grid>
-
             <ListView Grid.Row ="1"
 	  x:Name="productlistView"
 	  ScrollViewer.HorizontalScrollBarVisibility="Disabled"
           HorizontalContentAlignment="Center">
-
                 <ListView.ItemsPanel>
                     <ItemsPanelTemplate>
                         <WrapPanel Orientation="Horizontal"
