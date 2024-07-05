@@ -15,7 +15,6 @@
             <Grid>
 
                 <TextBlock Text="Список сотрудников" FontSize="25" FontWeight="Bold" Margin="0 20 0 20" Width="411" HorizontalAlignment="Left"/>
-
                 <TextBlock Margin="848,28,52,27" Text="Сортировка" Height="20" Width="100"/>
                 <ComboBox Margin="823,55,27,0" Name="sortUserComboBox" Height="20" Width="150" SelectionChanged="sortUserComboBox_SelectionChanged"/>
                 <TextBlock Margin="690,30,210,25" Text="Поиск" Height="20" Width="100"/>
