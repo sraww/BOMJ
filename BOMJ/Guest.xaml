@@ -46,8 +46,8 @@
                     <DataTemplate>
                         <StackPanel Width="300">
                             <TextBlock Text="{Binding idotdel, StringFormat=Номер отдела: {0}}" FontSize="15" Margin="5 , 5"/>
-                            <TextBlock Text="{Binding Surname , StringFormat=Фамилия: {0}}" FontSize="15" Margin="5 , 5"/>
-                            <TextBlock Text="{Binding Name , StringFormat=Имя: {0}}" FontSize="15" Margin="5 , 5"/>
+                            <TextBlock Text="{Binding Surname, StringFormat=Фамилия: {0}}" FontSize="15" Margin="5 , 5"/>
+                            <TextBlock Text="{Binding Name, StringFormat=Имя: {0}}" FontSize="15" Margin="5 , 5"/>
                             <TextBlock Text="{Binding Money , StringFormat=Зарплата: {0}}" FontSize="15" Margin="5 , 5"/>
                             <TextBlock Text="{Binding Staj , StringFormat=Стаж: {0}}" FontSize="15" Margin="5 , 5"/>
                         </StackPanel>
