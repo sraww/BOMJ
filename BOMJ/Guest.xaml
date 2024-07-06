@@ -29,8 +29,7 @@
                             Width="100"
                             Height="20"
                             Content="Очистить"
-                            Click="сlearButton_Click" VerticalAlignment="Top"
-                             />
+                            Click="сlearButton_Click" VerticalAlignment="Top"/>
             </Grid>
             <ListView Grid.Row ="1"
 	  x:Name="productlistView"
